@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		78822C762EB41216001397C4 /* SwiftAnimate in Frameworks */ = {isa = PBXBuildFile; productRef = 78822C752EB41216001397C4 /* SwiftAnimate */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		78822C662EB411CA001397C4 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78822C762EB41216001397C4 /* SwiftAnimate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = SampleApp;
 			packageProductDependencies = (
+				78822C752EB41216001397C4 /* SwiftAnimate */,
 			);
 			productName = SampleApp;
 			productReference = 78822C662EB411CA001397C4 /* SampleApp.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 78822C5D2EB411CA001397C4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				78822C742EB41216001397C4 /* XCLocalSwiftPackageReference "../../SwiftAnimate" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 78822C672EB411CA001397C4 /* Products */;
 			projectDirPath = "";
@@ -345,6 +354,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		78822C742EB41216001397C4 /* XCLocalSwiftPackageReference "../../SwiftAnimate" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../SwiftAnimate;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78822C752EB41216001397C4 /* SwiftAnimate */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftAnimate;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78822C5E2EB411CA001397C4 /* Project object */;
 }
